@@ -1,0 +1,155 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    display: flex;
+}
+
+
+.mustard-section {
+    background-image: url('Add a heading.png'); 
+    background-color: #d4a017;
+    background-blend-mode: multiply; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 70%; 
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navi {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 100%; 
+    margin-bottom: 20px; 
+    padding: 0 30px; 
+    background: none; 
+}
+
+.navi ol {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-grow: 1;
+    padding: 0; 
+    margin: 0; 
+    gap: 40px; 
+}
+
+.navi a {
+    font-weight: bold;
+    color: rgb(132, 104, 104);
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px; 
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease; 
+}
+
+.navi a:hover {
+    color: white;
+}
+
+.text-content {
+    margin-top: 50px;
+    text-align: left;
+}
+
+#welcome {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding-left: 100px;
+}
+
+#juzthin {
+    font-size: 65px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background-color: #4a4a4a;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 125px;
+}
+
+#constantino {
+    font-size: 65px;
+    font-weight: bold;
+    font-style: italic;
+    color: #131212;
+    background-color: #ededed;
+    display: inline-block; 
+    padding: 5px 20px; 
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 250px; 
+}
+
+#description {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 20px;
+    margin-left: 325px;
+    max-width: 300px;
+}
+
+
+.image-section {
+    background-image: url('mismo.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 100vh; 
+
+}
+
+.social-icons {
+    margin-left: 325px;
+    margin-top: 20px;
+    padding-top: 5px;
+   display: flex; 
+    flex-direction: row;
+    background-color: #fffefe;
+    width: 280px;
+    border-radius: 25px;
+}
+
+.social-icons a {
+    margin: 0 10px; 
+    text-decoration: none; 
+    
+    
+    padding: 5px 20px; 
+}
+
+.social-icons .social-icon {
+    height: 30px;
+    width: 30px; 
+    transition: transform 0.3s ease; 
+}
+
+.social-icons .social-icon:hover {
+    transform: scale(1.1);
+}
+
+
